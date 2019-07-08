@@ -7,6 +7,6 @@ const UglifyjsPlugin = require("uglifyjs-webpack-plugin");
 module.exports = WebpackMerge(baseConfig, {
     plugins: [
         new UglifyjsPlugin(),
-        new BannerPlugin("2019-7-2-JSMask"),
+        new BannerPlugin("Author:JSMask"),
     ]
 });
