@@ -1,7 +1,12 @@
-require("./css/normal.css");
-
 import Vue from 'vue';
 import App from './App.vue'
+
+require("./css/normal.css");
+
+new Vue({
+    render: h => h(App)
+}).$mount("#app")
+
 
 // new Vue({
 //     el: "#app",
@@ -10,7 +15,3 @@ import App from './App.vue'
 //         App
 //     }
 // })
-
-new Vue({
-    render: h => h(App)
-}).$mount("#app")
